@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A65A1C0A27B06E9100DDECC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A1C0927B06E9100DDECC7 /* AppDelegate.swift */; };
 		A65A1C0C27B06E9100DDECC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A1C0B27B06E9100DDECC7 /* SceneDelegate.swift */; };
-		A65A1C0E27B06E9100DDECC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A1C0D27B06E9100DDECC7 /* ViewController.swift */; };
+		A65A1C0E27B06E9100DDECC7 /* backGroundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A1C0D27B06E9100DDECC7 /* backGroundVC.swift */; };
 		A65A1C1127B06E9200DDECC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C0F27B06E9200DDECC7 /* Main.storyboard */; };
 		A65A1C1327B06E9B00DDECC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C1227B06E9B00DDECC7 /* Assets.xcassets */; };
 		A65A1C1627B06E9B00DDECC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65A1C1427B06E9B00DDECC7 /* LaunchScreen.storyboard */; };
+		A65A1C1E27B0711600DDECC7 /* colorChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65A1C1D27B0711600DDECC7 /* colorChangeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A65A1C0627B06E9100DDECC7 /* colorChangeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorChangeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65A1C0927B06E9100DDECC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A65A1C0B27B06E9100DDECC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A65A1C0D27B06E9100DDECC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65A1C0D27B06E9100DDECC7 /* backGroundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backGroundVC.swift; sourceTree = "<group>"; };
 		A65A1C1027B06E9200DDECC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A65A1C1227B06E9B00DDECC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A65A1C1527B06E9B00DDECC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A65A1C1727B06E9B00DDECC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65A1C1D27B0711600DDECC7 /* colorChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colorChangeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		A65A1C0827B06E9100DDECC7 /* colorChangeApp */ = {
 			isa = PBXGroup;
 			children = (
+				A65A1C1F27B22D9100DDECC7 /* Controllers */,
 				A65A1C0927B06E9100DDECC7 /* AppDelegate.swift */,
 				A65A1C0B27B06E9100DDECC7 /* SceneDelegate.swift */,
-				A65A1C0D27B06E9100DDECC7 /* ViewController.swift */,
 				A65A1C0F27B06E9200DDECC7 /* Main.storyboard */,
 				A65A1C1227B06E9B00DDECC7 /* Assets.xcassets */,
 				A65A1C1427B06E9B00DDECC7 /* LaunchScreen.storyboard */,
 				A65A1C1727B06E9B00DDECC7 /* Info.plist */,
 			);
 			path = colorChangeApp;
+			sourceTree = "<group>";
+		};
+		A65A1C1F27B22D9100DDECC7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A65A1C0D27B06E9100DDECC7 /* backGroundVC.swift */,
+				A65A1C1D27B0711600DDECC7 /* colorChangeVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A65A1C0E27B06E9100DDECC7 /* ViewController.swift in Sources */,
+				A65A1C1E27B0711600DDECC7 /* colorChangeVC.swift in Sources */,
+				A65A1C0E27B06E9100DDECC7 /* backGroundVC.swift in Sources */,
 				A65A1C0A27B06E9100DDECC7 /* AppDelegate.swift in Sources */,
 				A65A1C0C27B06E9100DDECC7 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,6 +309,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +338,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
